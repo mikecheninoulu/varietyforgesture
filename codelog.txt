@@ -1,0 +1,50 @@
+1 try
+dbn_model1_2017-04-18-18-35-01.npy
+dbn_model3_2017-04-18-22-26-25.npy
+sample 15 18 24 45 53  for test
+
+Sample ID: Sample0015, score 0.180735
+Sample ID: Sample0018, score 0.148617
+Sample ID: Sample0024, score 0.167724
+Sample ID: Sample0045, score 0.120349
+Sample ID: Sample0053, score 0.125737
+
+The score for this prediction is 0.148632518212
+
+reason the neutral frame is selected well
+
+2 try
+
+neutral frame select modified
+last gesture's neutral frame is not selected
+
+Sample ID: Sample0015, score 0.232298
+Sample ID: Sample0018, score 0.208602
+Sample ID: Sample0024, score 0.287639
+Sample ID: Sample0045, score 0.011701
+Sample ID: Sample0053, score 0.144002
+The score for this prediction is 0.176848257849
+
+select two ambiguity out
+
+3 try 
+pure 1-16
+17-22 test 21 out
+Optimization complete with best validation score of 39.500000 %,with test performance 42.083333 %
+Sample ID: Sample0017, score 0.000292
+Sample ID: Sample0018, score 0.210891
+Sample ID: Sample0019, score 0.010388
+Sample ID: Sample0020, score 0.003315
+
+The score for this prediction is 0.056221361852
+And it seems over fitting
+
+Sample ID: Sample0017, score 0.000506
+Sample ID: Sample0018, score 0.072668
+Sample ID: Sample0019, score 0.030256
+Sample ID: Sample0020, score 0.030056
+Sample ID: Sample0022, score 0.577619
+The score for this prediction is 0.142221052737
+
+4 try all these 6 files are fixed
+
